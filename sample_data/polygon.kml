@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Polygon Sample Survey</name>
+    <description>Sample KML containing a polygon feature (Agricultural Field)</description>
+    <Placemark>
+      <name>Central Park Zone</name>
+      <description>Sample polygon for area measurement test</description>
+      <ExtendedData>
+        <SimpleData name="land_use">park</SimpleData>
+        <SimpleData name="owner">City Council</SimpleData>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.2090,28.6139,0
+              77.2190,28.6139,0
+              77.2190,28.6239,0
+              77.2090,28.6239,0
+              77.2090,28.6139,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

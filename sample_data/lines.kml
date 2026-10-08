@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>LineString Sample Survey</name>
+    <description>Sample KML containing line features (Road Survey Route)</description>
+    <Placemark>
+      <name>Main Expressway Route</name>
+      <description>Sample line feature for length calculation test</description>
+      <ExtendedData>
+        <SimpleData name="road_type">expressway</SimpleData>
+        <SimpleData name="lanes">4</SimpleData>
+      </ExtendedData>
+      <LineString>
+        <coordinates>
+          77.2090,28.6139,0
+          77.2150,28.6180,0
+          77.2210,28.6250,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

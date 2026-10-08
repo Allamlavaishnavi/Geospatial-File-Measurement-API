@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Point Sample Survey</name>
+    <description>Sample KML containing point features (Survey Control Stations)</description>
+    <Placemark>
+      <name>Benchmark Station A1</name>
+      <description>Control benchmark marker</description>
+      <ExtendedData>
+        <SimpleData name="elevation_m">215.4</SimpleData>
+      </ExtendedData>
+      <Point>
+        <coordinates>77.2090,28.6139,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Benchmark Station B2</name>
+      <description>Secondary benchmark marker</description>
+      <ExtendedData>
+        <SimpleData name="elevation_m">218.1</SimpleData>
+      </ExtendedData>
+      <Point>
+        <coordinates>77.2150,28.6180,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
